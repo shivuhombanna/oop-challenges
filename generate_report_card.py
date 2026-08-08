@@ -39,7 +39,7 @@ class Report:
     def generate(student:Student):
         student_mark= student.reed_marks()
         print(f"Name : {student.name}   roll_no {student.rollno}")
-        print("----------------------MARKS---------------------------")
+        print("---------------MARKS--------------------")
         for subject, marks in student_mark.items():
             print(f"{subject}    {marks} ")
         print(f"Avarage : {student.calculate_avg()}")
